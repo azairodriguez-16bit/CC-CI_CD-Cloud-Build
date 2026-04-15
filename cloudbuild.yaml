@@ -18,3 +18,8 @@ steps:
 
 images:
 - 'us-central1-docker.pkg.dev/cc2026azai/repo-lab/app:latest'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  
+serviceAccount: projects/cc2026azai/serviceAccounts/sa-compute-limited@cc2026azai.iam.gserviceaccount.com
